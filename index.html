@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title> Dropzone Image Upload </title>
+            <link rel = "stylesheet" href = "css/style.css" type = "text/css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class = "dropzone-container">
+            <div class="dropzone">
+                <i class = "fa-solid fa-photo-film image-icon"> </i>
+                <div class = "dropzone-text">
+                    <h3 class="dropzone-h3-text"> Drag and Drop your file here </h3>
+
+                    <div class="dropzone-sub">
+                        <span class="line"> </span>
+                        <span class = "or"> OR </span>
+                        <span class = "line"> </span>
+                    </div>
+                </div>
+                <label for = "file-upload"> Browser File </label>
+                <input type = "file" id = "file-upload" class = "file-post" multiple />
+            </div>
+
+            <div class = "progress"> </div>
+
+        </div>
+        <script src = "js/script.js"> </script>
+    </body>
+</html>
